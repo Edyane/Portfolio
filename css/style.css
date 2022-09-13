@@ -1,11 +1,59 @@
-h5 {
-    padding: 35px;
-}
-.about-me {
-    background-color: #EAF2FD;
-    min-height: 380px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
 }
 
-.skills-hobbies {
+.about-me {
+    background-color: #F4F4F4;
+    min-height: 550px;
+}
+
+h3 {
+    padding-top: 70px;
+    font-size: 50px;
+}
+
+h4 {
+    color: #D26284;
+    font-size: 50px;
+}
+
+h5 {
+    padding: 35px 0;
+}
+
+h6 {
+    color: #D26284;
+    padding: 35px;
+    font-size: 40px;
+}
+
+.contact-btn {
+    background-color: #D26284;
+    color: white;
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+}
+
+.skills-container {
+    background-color: #ffffff;
+    padding-top: 35px;
     min-height: 480px;
 }
+
+.border {  
+    color: #21252B;    
+    padding-top: 60px;        
+    font-size: 18px;  
+    font-weight: 500;
+    height: 180px;    
+}
+
+.projects-container {
+    background-color: #F4F4F4;
+}
+   
+
