@@ -56,4 +56,11 @@ h6 {
     background-color: #F4F4F4;
 }
    
+.btn {
+    color: white;
+    border: none;
+}
 
+.btn:hover {
+    color: white;
+}
