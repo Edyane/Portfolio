@@ -44,23 +44,7 @@ h6 {
     min-height: 480px;
 }
 
-.border {  
-    color: #21252B;    
-    padding-top: 60px;        
-    font-size: 18px;  
-    font-weight: 500;
-    height: 180px;    
-}
-
 .projects-container {
     background-color: #F4F4F4;
 }
    
-.btn {
-    color: white;
-    border: none;
-}
-
-.btn:hover {
-    color: white;
-}
