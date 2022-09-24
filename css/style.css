@@ -86,3 +86,9 @@ h3 {
     font-weight: 500;
     padding-bottom: 25px;
 }
+
+.container__projects {
+    background-color: #ffffff;
+    padding-top: 65px;
+    min-height: 630px
+}
