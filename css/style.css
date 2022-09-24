@@ -5,41 +5,14 @@ body {
     color: rgb(0, 0, 0);     
 }
 
-.hi__container {
-    padding-top: 80px;
-    font-size: 50px;
-    font-weight: bold;
-}
 
-h4 {
-    font-size: 45px;
-    font-weight: bold;
-    padding-top: 15px;
-}
 
-h5 {
-    font-size: 16px;
-    padding-top: 15px;
-}
 
-.front-end__btn {
-    background-color: #4C3CE3;
-    color: #fff;   
-    font-size: 21px;   
-    font-weight: bold; 
-    width: 140px;
-    height: 50px;
-    border: none;
-    border-radius: 30px;
-    pointer-events: none;
-}
 
-.description {
-    font-size: 16px;
-    padding: 25px 0px;
-    max-width: 380px;
-    
-}
+.buttons__container {
+    display: flex;
+    gap: 1.0em;
+} 
 
 .hire__btn {
     background-color: #49bab8;    
@@ -64,8 +37,3 @@ h5 {
     border-radius: 8px;
     cursor: default;
 }
-
-.buttons {
-    display: flex;
-    gap: 1.0em;
-}   
