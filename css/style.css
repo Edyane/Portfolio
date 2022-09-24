@@ -6,6 +6,11 @@ body {
     font-family: Poppins; 
 }
 
+
+.about__me {
+    min-height: 630px;
+}
+
 h1 {
     padding: 60px 0px 15px 0px;
     font-family: Poppins;
@@ -25,18 +30,13 @@ h2 {
     padding-bottom: 25px;
 }
 
-.gradient1 {
-    @include gradient-text('linear-gradient(to right,#23966c, #faaa54, #e23b4a, #db0768, #360670)', 'light');
-  }
-
-
 .buttons__container {
     display: flex;
     gap: 1.0em;
 } 
 
 .hire__btn {
-    background-color: #49bab8;    
+    background-color: #FB8094;    
     color: #fff;   
     font-size: 20px;   
     font-weight: bold; 
@@ -67,4 +67,22 @@ h2 {
 
 .img__cover {
     padding-top: 25px;
+}
+
+.skills__experience {
+    background-color: #ffc7d0;
+    padding-top: 65px;
+    min-height: 630px
+}
+
+.img__skill {
+    padding: 35px;
+}
+
+h3 {
+    color: #281BB9;
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 500;
+    padding-bottom: 25px;
 }
