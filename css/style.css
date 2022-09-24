@@ -2,11 +2,32 @@
 
 body {
     background-color: #ffffff;
-    color: rgb(0, 0, 0);     
+    color: rgb(0, 0, 0);    
+    font-family: Poppins; 
 }
 
+h1 {
+    padding: 60px 0px 15px 0px;
+    font-family: Poppins;
+    font-size: 60px;
+    font-weight: 500;
+}
 
+h2 {
+    font-family: Poppins;
+    font-size: 60px;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
 
+.description__text {
+    font-size: 16px;    
+    padding-bottom: 25px;
+}
+
+.gradient1 {
+    @include gradient-text('linear-gradient(to right,#23966c, #faaa54, #e23b4a, #db0768, #360670)', 'light');
+  }
 
 
 .buttons__container {
@@ -36,4 +57,14 @@ body {
     border: 1px solid rgb(77, 77, 77);
     border-radius: 8px;
     cursor: default;
+}
+
+.social__media {
+    padding-top: 55px;
+    display: flex;
+    gap: 2.0em;
+}
+
+.img__cover {
+    padding-top: 25px;
 }
