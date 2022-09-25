@@ -1,27 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
 body {
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);    
+    background-color: #ffffff;      
     font-family: Poppins; 
 }
 
 
 .about__me {
-    min-height: 630px;
+    background-color: #f4eef6;
+    padding-top: 85px;
+    min-height: 690px;
 }
 
 h1 {
+    color: #353535;
     padding: 60px 0px 15px 0px;
-    font-family: Poppins;
-    font-size: 60px;
-    font-weight: 500;
+    font-family: Poppins;    
+    font-size: 55px;
+    font-weight: 700;    
 }
 
 h2 {
+    color: #7a18fa;
     font-family: Poppins;
-    font-size: 60px;
-    font-weight: 500;
+    font-size: 55px;
+    font-weight: 700;
     padding-bottom: 25px;
 }
 
@@ -36,9 +39,9 @@ h2 {
 } 
 
 .hire__btn {
-    background-color: #FB8094;    
+    background-color: #7a18fa;    
     color: #fff;   
-    font-size: 20px;   
+    font-size: 18px;   
     font-weight: bold; 
     width: 140px;
     height: 50px;
@@ -48,9 +51,9 @@ h2 {
 }
 
 .projects__btn {
-    background-color: #fff;
-    color: rgb(0, 0, 0);   
-    font-size: 20px;   
+    background-color: #f4eef6;
+    color: #7a18fa;   
+    font-size: 18px;   
     font-weight: bold; 
     width: 140px;
     height: 50px;
@@ -69,8 +72,8 @@ h2 {
     padding-top: 25px;
 }
 
-.skills__experience {
-    background-color: #ffc7d0;
+.skills__experience {        
+    background-color: #d8c4ea;
     padding-top: 65px;
     min-height: 630px
 }
@@ -80,15 +83,22 @@ h2 {
 }
 
 h3 {
-    color: #281BB9;
+    color: #3C0D90;
     font-family: Poppins;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 500;
     padding-bottom: 25px;
 }
 
-.container__projects {
-    background-color: #ffffff;
+.container__projects {    
+    background-color: #f4eef6;
     padding-top: 65px;
     min-height: 630px
 }
+
+footer {
+    background-color: #d8c4ea;
+    font-size: 13px;
+    min-height: 60px;
+}
+
